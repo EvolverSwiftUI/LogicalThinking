@@ -1,7 +1,7 @@
 import Foundation
 
 // String reverse
-let givenString =  "$le,ve@l" //"Hello" //
+let givenString =  "level" //"Hello" // "racecar" // "liril"
 
 func getReverseString(using str: String) -> String {
     var reverseString = ""
