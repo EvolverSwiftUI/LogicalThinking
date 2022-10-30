@@ -32,3 +32,6 @@ func revereNumberNew(number: Int) -> Int {
 
 let result = revereNumberNew(number: givenNumber)
 print("GivenNumber: ", givenNumber, "\nReverseNumber: ", result)
+
+
+
