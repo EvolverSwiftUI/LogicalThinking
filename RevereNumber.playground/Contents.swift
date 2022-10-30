@@ -1,6 +1,6 @@
 import UIKit
 
-var givenNumber = -4005001
+var givenNumber = -123
 
 func revereNumberNew(number: Int) -> Int {
     
