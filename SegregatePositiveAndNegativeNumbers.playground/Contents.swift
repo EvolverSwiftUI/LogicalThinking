@@ -1,6 +1,6 @@
 import UIKit
 
-let givenNumArray = [9,1,-2,-6,12,81,-13,8,4]
+let givenNumArray = [9,1,-2,-6,12,81,-13,8,4,-42]
 
 func seggregateNegativeAndPositiveNumbersInArray(_ arr: [Int]) -> [Int] {
     
@@ -12,7 +12,7 @@ func seggregateNegativeAndPositiveNumbersInArray(_ arr: [Int]) -> [Int] {
     
     for _ in output.indices {
         
-        if startIndex >= endIndex {
+        if startIndex >= endIndex { // Pre-Condition To Restrict Index Out Of Range Exception
             return output
         }
         
