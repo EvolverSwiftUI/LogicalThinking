@@ -13,6 +13,7 @@ func printPattern_SpecialChar_02(number: Int) {
 }
 
 printPattern_SpecialChar_02(number: givenNumber)
+print("\n")
 
 // output:-
 
@@ -28,7 +29,6 @@ output:
 */
 
 // -------------------------------------------------
-print("\n")
 
 func printPattern_Number_02(number: Int) {
     for row in 1...number {
@@ -41,6 +41,7 @@ func printPattern_Number_02(number: Int) {
 }
 
 printPattern_Number_02(number: givenNumber)
+print("\n")
 
 /*
 output:
@@ -55,7 +56,6 @@ output:
 
 
 // -------------------------------------------------
-print("\n")
 
 func printPattern_Alphabet_02(number: Int) {
     for row in 1...number {
