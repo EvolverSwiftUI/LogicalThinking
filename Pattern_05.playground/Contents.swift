@@ -79,7 +79,7 @@ func printPattern_Chars_05(number: Int) {
 }
 
 printPattern_Chars_05(number: givenNumber)
-print("\n")
+print("\n" )
 
 /*
  output:
