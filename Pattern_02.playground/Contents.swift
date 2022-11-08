@@ -8,7 +8,7 @@ func printPattern_SpecialChar_02(number: Int) {
             print("*", terminator: "")
             print(" ", terminator: "")
         }
-        print("\n")
+        print("")
     }
 }
 
@@ -20,15 +20,11 @@ printPattern_SpecialChar_02(number: givenNumber)
 output:
  
 * * * * *
-
 * * * *
-
 * * *
-
 * *
-
 *
-
+ 
 */
 
 // -------------------------------------------------
@@ -40,7 +36,7 @@ func printPattern_Number_02(number: Int) {
             print(number-column + 1, terminator: "")
             print(" ", terminator: "")
         }
-        print("\n")
+        print("")
     }
 }
 
@@ -50,13 +46,9 @@ printPattern_Number_02(number: givenNumber)
 output:
  
  1 2 3 4 5
-
  1 2 3 4
-
  1 2 3
-
  1 2
-
  1
 
 */
@@ -71,7 +63,7 @@ func printPattern_Alphabet_02(number: Int) {
             print("A", terminator: "")
             print(" ", terminator: "")
         }
-        print("\n")
+        print("")
     }
 }
 
@@ -81,13 +73,9 @@ printPattern_Alphabet_02(number: givenNumber)
 output:
  
  A A A A A
-
  A A A A
-
  A A A
-
  A A
-
  A
 
 */
