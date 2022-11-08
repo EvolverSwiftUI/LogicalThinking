@@ -14,6 +14,23 @@ func printPattern_SpecialChar_02(number: Int) {
 
 printPattern_SpecialChar_02(number: givenNumber)
 
+// output:-
+
+/*
+output:
+ 
+* * * * *
+
+* * * *
+
+* * *
+
+* *
+
+*
+
+*/
+
 // -------------------------------------------------
 print("\n")
 
@@ -29,6 +46,22 @@ func printPattern_Number_02(number: Int) {
 
 printPattern_Number_02(number: givenNumber)
 
+/*
+output:
+ 
+ 1 2 3 4 5
+
+ 1 2 3 4
+
+ 1 2 3
+
+ 1 2
+
+ 1
+
+*/
+
+
 // -------------------------------------------------
 print("\n")
 
@@ -43,3 +76,18 @@ func printPattern_Alphabet_02(number: Int) {
 }
 
 printPattern_Alphabet_02(number: givenNumber)
+
+/*
+output:
+ 
+ A A A A A
+
+ A A A A
+
+ A A A
+
+ A A
+
+ A
+
+*/
