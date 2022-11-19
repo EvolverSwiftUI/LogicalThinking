@@ -59,8 +59,11 @@ output:
 
 func printPattern_Alphabet_02(number: Int) {
     for row in 1...number {
-        for _ in stride(from: number, through: row, by: -1) { // use stride when you decrease value
-            print("A", terminator: "")
+        for column in stride(from: number, through: row, by: -1) { // use stride when you decrease value
+            let char = Character(
+                Unicode.Scalar(64 + number - column + 1) ?? Unicode.Scalar(65)
+            )
+            print(char, separator: " ", terminator: "")
             print(" ", terminator: "")
         }
         print("")
@@ -72,10 +75,10 @@ printPattern_Alphabet_02(number: givenNumber)
 /*
 output:
  
- A A A A A
- A A A A
- A A A
- A A
+ A B C D E
+ A B C D
+ A B C
+ A B
  A
-
+ 
 */
