@@ -89,10 +89,10 @@ print("\n")
 
 
         A
-      A A A
-    A A A A A
-  A A A A A A A
-A A A A A A A A A
+      A B C
+    A B C D E
+  A B C D E F G
+A B C D E F G H I
 
  
  */
