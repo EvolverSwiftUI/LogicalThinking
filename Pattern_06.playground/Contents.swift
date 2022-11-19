@@ -55,8 +55,11 @@ func pattrern_alphabets_06(number: Int) {
             }
         }
         
-        for _ in 1...(2*row-1) {
-            print("A", terminator: "")
+        for j in 1...(2*row-1) {
+            let char = Character(
+                Unicode.Scalar(64+j) ?? Unicode.Scalar(65)
+            )
+            print(char, separator: " ", terminator: "")
             print(" ", terminator: "")
         }
         
