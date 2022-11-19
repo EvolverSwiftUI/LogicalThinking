@@ -16,3 +16,14 @@ func pattrern_chars_07(number: Int) {
 }
 
 pattrern_chars_07(number: givenNumber)
+
+/*
+ output:
+ 
+ A
+ A B
+ A B C
+ A B C D
+ A B C D E
+
+ */
