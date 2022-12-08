@@ -14,6 +14,11 @@ var b = 100
 //b = a - b
 //a = a - b
 
+// 4th way
+// let temp = a
+// a = b
+// b = temp
+
 //print(a,b)
 
 // function to swap numbers
