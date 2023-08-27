@@ -35,7 +35,7 @@ typealias CountTuple = (
     specialCharsCount   : Int
 )
 
-func getCharsCountOfString(_ str: String) -> CountTuple {
+func get_Vowels_Consotants_Digits_And_SpecialChars_Count_Of_String(_ str: String) -> CountTuple {
     
     var counter: CountTuple = (0,0,0,0)
     
@@ -57,7 +57,7 @@ func getCharsCountOfString(_ str: String) -> CountTuple {
     return counter
 }
 
-let res = getCharsCountOfString(givenString)
+let res = get_Vowels_Consotants_Digits_And_SpecialChars_Count_Of_String(givenString)
 
 print(
     "Count of Vowels, Consonants, Digits and SpecialChars\n",
